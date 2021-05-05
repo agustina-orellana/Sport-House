@@ -4,8 +4,7 @@
   "homepage": "http://agustina-orellana.github.io/Sport-House",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/contact.scss css/prueba.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
